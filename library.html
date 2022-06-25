@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="library.css" />
+    <title>library</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <ul>
+          <h1>Riya library</h1>
+        </ul>
+        <li id="b">Magic Notes</li>
+        <li>Home</li>
+      </ul>
+      <div class="thing1">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search Notes"
+        />
+        <button class="search">Search</button>
+      </div>
+    </nav>
+    <h1 id="heading1"><center>Riya library</center></h1>
+    <hr >
+    <div class="container">
+
+    </div>
+    <form action="" id="form1" class="meraform">
+        <label>
+          Name
+          <input type="text" name="bookame" id="bname" class="div1" /> </label
+        ><br />
+  
+        <label>
+          Author name
+          <input type="text" name="authorname" id="aname" class="div1" />
+        </label>
+  
+        <div class="radio">
+          <input type="radio" name="type" id="fiction" />
+          <label for="fiction"> fiction </label><br />
+          <input type="radio" name="type" id="computer" />
+          <label for="computer"> computer programming </label><br />
+          <input type="radio" name="type" id="cooking" />
+          <label for="cooking"> cooking </label><br />
+        </div>
+        checkbox
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        <label for="checkbox"> example checkbox </label><br />
+        <button class="button">add</button>
+      </form>
+      <div id="table">
+          <h1>
+              Your books
+            </h1>
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th>Name</th>
+                          <th>Author</th>
+                          <th>Type</th>
+                      </tr>
+                  </thead>
+                  <tbody id="tablebody"></tbody>
+              </table>
+         
+      </div>
+  </body>
+  <script src="library.js"></script>
+</html>
